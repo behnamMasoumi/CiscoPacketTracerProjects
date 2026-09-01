@@ -13,6 +13,7 @@ A small VLAN-based LAN demonstrating **DHCP configuration on a Cisco router** us
 - 1 Access Point + Laptop
 - 5 VLANs
 
+
 ### VLANs
 
 | VLAN | Name | Network |
@@ -23,7 +24,10 @@ A small VLAN-based LAN demonstrating **DHCP configuration on a Cisco router** us
 | 40 | Vlan Forty | 192.168.40.0/24 |
 | 50 | Fifty | 192.168.50.0/24 |
 
+
 The router provides DHCP services for all five VLANs. Addresses `.1–.20` are excluded from each subnet to reserve them for static assignments.
+
+![DHCP configured](images/02%20-%20DHCP%20configured%20on%20the%20Router.png)
 
 ### Key Configuration
 
@@ -40,3 +44,5 @@ Clients successfully received IP addresses from the correct DHCP pool and were a
 Additional configuration screenshots are available in the `images` folder.
 
 **Focus:** DHCP • VLANs • Router-on-a-Stick • Inter-VLAN Routing
+
+![Testing and verification](images/06%20-%20The%20network%20connectivity%20was%20tested.png)

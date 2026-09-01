@@ -22,6 +22,9 @@ The project was built and tested in **Cisco Packet Tracer**, with configuration 
 | 99   | MANAGEMENT | 192.168.99.0/24 | Network management          |
 | 999  | NATIVE     | —               | Native VLAN for trunk links |
 
+
+![Final Topology](images/23%20-%20Final%20Topology.png)
+
 ## Network Architecture
 
 The office uses an **access-layer / Layer 3 switching architecture**.
@@ -53,6 +56,8 @@ The phones receive their network connectivity through the access switches while 
 
 **Cisco CME/telephony service** is configured on the router to provide phone extensions and support the simulated office VoIP environment.
 
+![Telephony Service configured on the router](images/18-%20Configuring%20telephony-service%20on%20the%20router%20for%20the%20VoIP%20phones.png)
+
 ## Guest Network Security
 
 Guest wireless clients are isolated from the firm's internal networks.
@@ -64,6 +69,8 @@ Guest wireless clients are isolated from the firm's internal networks.
 
 This demonstrates basic **network segmentation and least-privilege access control** for an untrusted network.
 
+![ACL configured against the GUEST Vlan](images/20%20-%20Configuring%20ACL%20on%20the%20layer%203%20switch%20to%20block%20access%20to%20the%20internal%20network%20from%20the%20guest%20VLAN.png)
+
 ## Network Services
 
 A dedicated server network (VLAN 60) provides core infrastructure services:
@@ -72,6 +79,8 @@ A dedicated server network (VLAN 60) provides core infrastructure services:
 * **DNS** — name resolution for the internal network.
 
 The network was tested to verify that clients could successfully obtain addressing information through DHCP and communicate with the required network resources.
+
+![server to provide DHCP and DNS](images/10%20-%20setting%20up%20a%20dhcp%20server%20providing%20ip%20addresses%20for%20the%20devices.png)
 
 ## Configuration Highlights
 
@@ -108,6 +117,8 @@ After configuration, the network was tested to verify:
 * IP phone connectivity and extensions
 * Routing between the Layer 3 switch and router
 * Availability of DHCP and DNS services
+
+![Testing connectivity and other things](images/22%20-%20Testing%20connectivity%20in%20our%20network.png)
 
 The included screenshots document the topology, configuration, and testing performed throughout the project.
 

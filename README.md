@@ -8,7 +8,7 @@ The projects range from focused fundamentals labs to a three-site enterprise net
 
 A simulated enterprise network connecting a headquarters campus with branches in **Abbotsford and Kelowna**.
 
-![Multi-Site Enterprise Network Topology](Enterprise-Projects/MultiSite-Enterprise-Network/screenshots)
+![Multi-Site Enterprise Network Topology](Enterprise-Projects/MultiSite-Enterprise-Network)
 
 **Key features:**
 
@@ -23,15 +23,15 @@ A simulated enterprise network connecting a headquarters campus with branches in
 
 The documentation includes the addressing plan, verification screenshots, troubleshooting lessons, and failover results.
 
-**[Explore the project →](Bigger%20Projects/MultiSite-Enterprise-Network)**
+**[Explore the project →](Enterprise-Projects/MultiSite-Enterprise-Network)**
 
 ## Other Network Projects
 
 | Project | Documentation |
 | --- | --- |
-| Law Firm Office | [View project](Bigger%20Projects/LawFirmOffice) |
-| Gaming Centre Network | [View project](Bigger%20Projects/Gaming%20Centre%20Network) |
-| Coffee Shop Network | [View project](Bigger%20Projects/CoffeeShopNetwork) |
+| Law Firm Office | [View project](Enterprise-Projects/LawFirmOffice) |
+| Gaming Centre Network | [View project](Enterprise-Projects/Gaming%20Centre%20Network) |
+| Coffee Shop Network | [View project](Enterprise-Projects/CoffeeShopNetwork) |
 
 ## Networking Fundamentals
 
@@ -39,11 +39,11 @@ Focused labs for practicing individual technologies and understanding how they w
 
 | Lab | Focus |
 | --- | --- |
-| [Guest Network ACLs](Basic%20Configurations/ACL%20%28Guest%20Wifi%29) | VLANs, router-on-a-stick, DHCP, and guest access restrictions |
-| [DHCP Server Configuration](Basic%20Configurations/DHCP%20Server%20Configuration) | DHCP configuration and client connectivity |
-| [Dynamic Routing with OSPF](Basic%20Configurations/Dynamic%20Routing%20using%20OSPF) | OSPF, Layer 3 switching, SVIs, and DHCP relay |
-| [DNS, DHCP, and Web Services](Basic%20Configurations/Server%20handling%20DNS%2C%20DHCP%2C%20Web%20Server) | Centralized services and name resolution |
-| [IP Telephony](Basic%20Configurations/Telephony%20Service%20%28TFTP%29) | Voice VLANs, DHCP, TFTP, and phone registration |
+| [Guest Network ACLs](Network-Fundamentals/ACL%20%28Guest%20Wifi%29) | VLANs, router-on-a-stick, DHCP, and guest access restrictions |
+| [DHCP Server Configuration](Network-Fundamentals/DHCP%20Server%20Configuration) | DHCP configuration and client connectivity |
+| [Dynamic Routing with OSPF](Network-Fundamentals/Dynamic%20Routing%20using%20OSPF) | OSPF, Layer 3 switching, SVIs, and DHCP relay |
+| [DNS, DHCP, and Web Services](Network-Fundamentals/Server%20handling%20DNS%2C%20DHCP%2C%20Web%20Server) | Centralized services and name resolution |
+| [IP Telephony](Network-Fundamentals/Telephony%20Service%20%28TFTP%29) | Voice VLANs, DHCP, TFTP, and phone registration |
 
 ## Opening the Labs
 

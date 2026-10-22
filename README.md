@@ -8,7 +8,7 @@ The projects range from focused fundamentals labs to a three-site enterprise net
 
 A simulated enterprise network connecting a headquarters campus with branches in **Abbotsford and Kelowna**.
 
-![Multi-Site Enterprise Network Topology](Bigger%20Projects/MultiSite-Enterprise-Network/screenshots)
+![Multi-Site Enterprise Network Topology](Enterprise-Projects/MultiSite-Enterprise-Network/screenshots)
 
 **Key features:**
 
